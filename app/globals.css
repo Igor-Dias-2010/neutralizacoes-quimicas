@@ -13,27 +13,41 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 230, 183);
 }
 h1{
-    margin-top: 20px;
+    margin-top: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 nav {
+    background-color: rgba(0, 166, 0, 0.5);
+    backdrop-filter: blur(5px);
+    right: 0;
+    left: 0;
+    top: 0;
     position: fixed;
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
     margin-inline: 5px;
+    text-decoration: none;
 }
-.components-container{
-    margin-block: 10px;
+a:hover{
+    text-decoration: underline;
 }
 .components-container section{
-    margin-block: 15px;
+    margin-inline: 15px;
     background-color: rgb(147, 147, 147);
 
+}
+.ativo{
+    color: red;
+    font-weight: bold;
 }

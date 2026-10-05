@@ -1,8 +1,10 @@
-export default function Ph(){
-    return(
+export default function Ph() {
+    return (
         <section id="ph">
             <h1>Ph</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, optio dolores sit iste quod voluptatem quibusdam quis nihil. Qui est cupiditate quisquam quam, doloribus dignissimos quibusdam saepe doloremque autem quas.</p>
+            <p>
+                O Ph representa o grau de acidez ou de basicidade de uma solução, indo de 0 a 14, quando uma solução um Ph baixo, ela está abaixo de 7 e é mais ácida, se o Ph de uma solução é mais alto, ele está acima de 7 e é mais básico, e se ela está próxima da neutralidade, ela está próxima de 7.
+            </p>
         </section>
     )
 }
