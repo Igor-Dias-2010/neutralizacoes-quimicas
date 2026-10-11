@@ -4,7 +4,7 @@ export default function Grupo() {
     return (
         <div>
             <Navbar />
-            <h1>Grupo</h1>
+            <h1 className="titulo">Grupo</h1>
         </div>
     )
 }

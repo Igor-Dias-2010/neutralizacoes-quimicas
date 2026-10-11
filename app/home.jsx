@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div>
             <Navbar />
-            <h1>Neutralizações Químicas</h1>
+            <h1 className="titulo">Neutralizações Químicas</h1>
         </div>
     )
 }
