@@ -1,10 +1,25 @@
-import Navbar from "./navbar"
+import Navbar from "./navbar";
 
 export default function Home() {
     return (
         <div>
             <Navbar />
             <h1 className="titulo">Neutralizações Químicas</h1>
+            <p>
+                Este trabalho tem como objetivo principal analisar a reação de
+                neutralização entre uma solução ácida e uma solução básica,
+                compreendendo os mecanismos químicos envolvidos nesse processo
+                de equilíbrio. Além disso, o experimento visa mensurar e
+                comparar o potencial hidrogeniônico (pH) de ambos os reagentes
+                antes e durante a reação. Para garantir a precisão dos
+                resultados e avaliar a eficiência de diferentes metodologias
+                analíticas, a medição do pH será realizada por meio de
+                instrumentos e métodos distintos, incluindo o uso de indicadores
+                colorimétricos (como o papel indicador universal) e equipamentos
+                eletroquímicos digitais, como o Labdisc, e até suco de repolho roxo. Dessa forma, busca-se
+                contrapor a sensibilidade e a exatidão de cada ferramenta
+                técnica no ambiente de laboratório.
+            </p>
         </div>
-    )
+    );
 }
