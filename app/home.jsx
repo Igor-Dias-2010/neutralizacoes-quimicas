@@ -20,6 +20,9 @@ export default function Home() {
                 contrapor a sensibilidade e a exatidão de cada ferramenta
                 técnica no ambiente de laboratório.
             </p>
+            <p className="introducao">
+                Para esse trabalho, usamos como substância ácida o vinagre de maçã, e de base, usamos bicarbonato de sódio. 
+            </p>
         </div>
     );
 }
