@@ -5,7 +5,7 @@ export default function Home() {
         <div>
             <Navbar />
             <h1 className="titulo">Neutralizações Químicas</h1>
-            <p>
+            <p className="introducao">
                 Este trabalho tem como objetivo principal analisar a reação de
                 neutralização entre uma solução ácida e uma solução básica,
                 compreendendo os mecanismos químicos envolvidos nesse processo
