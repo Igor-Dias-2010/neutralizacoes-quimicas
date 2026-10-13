@@ -63,15 +63,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
-p {
-    width: 80vw;
-}
 .components-container section {
     margin-bottom: 20px;
     background-color: rgb(69, 204, 69);
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
+    width: 80vw;
 }
 .components-container p {
     line-height: 25px;
@@ -92,10 +90,6 @@ p {
 img {
     border: 2px solid black;
     border-radius: 10px;
-}
-figcaption {
-    width: 25vw;
-    margin-inline: auto;
 }
 @media (min-width: 1080px) {
     .fotos-container {
