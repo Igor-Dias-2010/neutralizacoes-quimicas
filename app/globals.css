@@ -38,6 +38,7 @@ h1 {
 }
 .introducao {
     max-width: 80vw;
+    margin-inline: auto;
 }
 nav {
     background-color: rgba(0, 166, 0, 0.5);
