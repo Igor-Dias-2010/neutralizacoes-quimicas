@@ -36,10 +36,6 @@ body::selection {
 h1 {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.introducao {
-    max-width: 80vw;
-    margin-inline: auto;
-}
 nav {
     background-color: rgba(0, 166, 0, 0.5);
     backdrop-filter: blur(5px);
@@ -93,6 +89,11 @@ a:hover {
 img {
     border: 2px solid black;
     border-radius: 10px;
+}
+.introducao,
+figcaption {
+    max-width: 80vw;
+    margin-inline: auto;
 }
 @media (min-width: 1080px) {
     .fotos-container {
