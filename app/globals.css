@@ -90,6 +90,9 @@ img {
     border: 2px solid black;
     border-radius: 10px;
 }
+.foto-item:last-of-type {
+    margin-bottom: 30px;
+}
 .introducao,
 figcaption {
     max-width: 80vw;
