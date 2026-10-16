@@ -12,14 +12,6 @@ export default function Navbar() {
                     Início
                 </Link>
                 <Link
-                    href={"/components/pages/grupo"}
-                    className={
-                        pathname === "/components/pages/grupo" ? "ativo" : ""
-                    }
-                >
-                    Grupo
-                </Link>
-                <Link
                     href={"/components/pages/substancias"}
                     className={
                         pathname === "/components/pages/substancias"
